@@ -1,0 +1,32 @@
+.btn-item {
+  font-size: 32px;
+  color: #eb6500;
+  background-color: #ffffff;
+  transition: opacity 0.3s;
+  height: 100px;
+  width: 90px;
+  text-align: right;
+}
+.navbrand {
+  flex: 2;
+  font-size: 32px;
+  color: #eb6500;
+  text-align: left;
+  text-shadow: 1px 1px 5px #ffffff;
+}
+
+.btnsContainer {
+  flex: 1;
+}
+
+.btn-item:hover {
+  opacity: 0.9;
+}
+
+.navBar {
+  background-color: #0084eb;
+}
+
+.visited-none:visited{
+  color: #eb6500 !important;
+}

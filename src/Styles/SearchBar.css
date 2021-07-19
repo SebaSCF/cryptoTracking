@@ -1,0 +1,11 @@
+.search{
+    flex: 3;
+}
+
+.searchHeader{
+    color: #ffffff !important;
+}
+
+.filter{
+    flex: 1;
+}
