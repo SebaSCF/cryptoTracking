@@ -1,0 +1,9 @@
+canvas{
+    height: 315px !important;
+}
+
+a:hover{
+    background-color: #ffffff;
+    color: #0084eb !important;
+    transition: opacity 0.3s;
+}

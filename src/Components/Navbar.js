@@ -12,11 +12,11 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="btnsContainer d-flex align-items-end">
-          <div className="btn-item p-4">
-            <NavLink className="visited-none " to="/">
+          <NavLink className="visited-none " to="/">
+            <div className="btn-item p-4">
               <i className="fa fa-home"></i>
-            </NavLink>
-          </div>
+            </div>
+          </NavLink>
         </div>
       </div>
     </div>

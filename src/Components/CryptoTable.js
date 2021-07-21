@@ -1,7 +1,12 @@
 import React from "react";
 import Crypto from "../Components/Crypto";
+import Loading from "./Loading";
 
 const CryptoTable = ({ filterCrypto, Select }) => {
+
+
+  if(!filterCrypto) return <Loading />;
+
   return (
     <div className="cryptoTable bg-light p-4 container">
       <table className="table " style={{ textAlign: "left" }}>
